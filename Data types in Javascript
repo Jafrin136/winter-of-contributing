@@ -1,31 +1,30 @@
-JavaScript is a dynamic language,It means you don't need to specify type of the variable because it is dynamically used by JavaScript engine. You need to use var here to specify the data type. It can hold any type of values such as numbers, strings etc. For eg:
+JavaScript is a dynamic type of language,It means you don't need to specify type of the variable like int char or float because it is dynamically used in Javascript. You need to use var here to specify the data type. It can hold any type of values such as numbers, strings etc. For eg:
 
-var a=10;//holding number  
-var b="David";//holding string  
+var a=10;//It is holding number  
+var b="David";//It is holding string  
 
-🎇JavaScript primitive data types🎇
+🎇Primitive data types🎇
 
-There are five types of primitive data types in JavaScript. They are as follows:
+There are five types of Primitive data types in JavaScript. They are as follows:
 
 Data Type	Description
-String:represents sequence of characters e.g. "hello World"
-Number:represents numeric values e.g. 200
-Boolean:represents boolean value either false or true
-Undefined	represents:undefined value
+String:Consists of sequence of characters e.g. "I am a robot"
+Number:Consists of numeric values e.g.900
+Boolean:represents boolean value is either false or true
+Undefined	represents:Has undefined value
 Null:represents null i.e. no value 
 
 🎇JavaScript non-primitive data types🎇
 
-Object:represents instance through which we can access members
-Array:represents group of similar values
-RegExp:represents regular expression
+Object:represents instance through which we can gain access to its members
+Array:Consists of similar values
+RegExp:Have regular expression
 
 
-JavaScript Types are Dynamic
-JavaScript has dynamic types. This means that the same variable can be used to hold different data types:
+JavaScript has dynamic data types. This means that the same variable can be used to hold different data types.The following examples illustrates it:
 
 Example
 let x;           // Now x is undefined
-x = 10;           // Now x is a Number
-x = "David";      // Now x is a String
+x = 100;           // Now x is a Number
+x = "Priyanka";      // Now x is a String
 
